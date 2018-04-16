@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.veeru.BussinessScripts.GmailTest">
+        <methods>
+          <include name="AfterTCExcution"/>
+          <include name="login"/>
+          <include name="openBrowser"/>
+          <include name="closebrowser"/>
+          <include name="TCExecution"/>
+        </methods>
+      </class> <!-- com.veeru.BussinessScripts.GmailTest -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
